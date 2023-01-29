@@ -82,5 +82,24 @@
           dots[slideIndex-1].className += " active";
         }
     </script>
+
+    <form>
+      <h2>Contact Me!</h2>
+      <p>
+        <label for = "username">Enter the Username </label>
+        <input id = "username" type = "text" placeholder="username" name = "username"> 
+      </p>
+      <p>
+        <label for = "password">Enter the Password </label>
+        <input id = "password" type = "text" placeholder="password" name = "password"> 
+      </p>
+      <p>
+        <label for = "email">Enter the email address </label>
+        <input id = "email" type = "text" placeholder="my_example@something.com" name = "email">
+      </p>
+
+      <!-- this button doesn't submit the form b/c of the "type" attribute -->
+      <button type="button">Submit</button>
+    </form>
 </body>
 </html>
